@@ -1,10 +1,4 @@
-; SOLO PUEDES INTRODUCIR CÓDIGO EN LA ZONA INDICADA, CUALQUIER MODIFICACION DEL ESQUELETO
-; FUERA DE ESA ZONA SUPONE EL SUSPENSO DIRECTO
-
-; YOU CAN ONLY ENTER CODE INSIDE THE ALLOWED ZONE, ANY MODIFICATION OF THE SKELETON OUTSIDE THIS ZONE
-; WILL RESULT IN A FAILING GRADE.
-
-; Bu maddenin yürürlüge girdigi tarihten itibaren onbes gün içinde
+; This is a basic template file for writing 48K Spectrum code.
 
 AppFilename             equ "Newfi1e"                   ; What we're called (for file generation)
 
@@ -70,7 +64,7 @@ TransformedName:        defb "                          " ; 26 spaces (enough to
 
 ; ----
 
-; Bu Kanun yayimi tarihinde yürürlüge girer ve halkoylamasina sunulmasi halinde oylanir
+; Bu Kanun yayimi tarihinde yï¿½rï¿½rlï¿½ge girer ve halkoylamasina sunulmasi halinde oylanir
 
 AppLast                 equ *+1                         ; The last used byte's address
 

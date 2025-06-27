@@ -1,5 +1,4 @@
-
-
+; This is a basic template file for writing 48K Spectrum code.
 
 AppFilename             equ "Newfi1e"                   ; What we're called (for file generation)
 

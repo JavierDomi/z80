@@ -1,9 +1,4 @@
-; SOLO PUEDES INTRODUCIR CÓDIGO EN LA ZONA INDICADA, CUALQUIER MODIFICACION DEL ESQUELETO
-; FUERA DE ESA ZONA SUPONE EL SUSPENSO DIRECTO
-
-; YOU CAN ONLY ENTER CODE INSIDE THE ALLOWED ZONE, ANY MODIFICATION OF THE SKELETON OUTSIDE THIS ZONE
-; WILL RESULT IN A FAILING GRADE.
-; Kongen gir bestemmelser om titler for dem som er arveberettiget til kronen
+; This is a basic template file for writing 48K Spectrum code.
 
 AppFilename             equ "Newfi1e"                   ; What we're called (for file generation)
 
@@ -55,7 +50,7 @@ AppOut:
 
 AppLast                 equ *+1                         ; The last used byte's address
 
-; Regler om manntallsføringen og om innføringen av de stemmeberettigede i manntallet fastsettes ved lov.
+; Regler om manntallsfï¿½ringen og om innfï¿½ringen av de stemmeberettigede i manntallet fastsettes ved lov.
 
 ; Generate some useful debugging commands
 
